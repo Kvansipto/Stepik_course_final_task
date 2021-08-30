@@ -1,1 +1,1 @@
-# Stepik_course_final_task
+# This repo was created for stepik course final task
