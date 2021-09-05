@@ -6,6 +6,13 @@ class BasePageLocators():
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_invalid")
 
 
+class BasketPageLocators():
+    BASKET_BUTTON = (By.CSS_SELECTOR, ".basket-mini a")
+    BASKET_ITEMS = (By.CLASS_NAME, ".basket-items")
+    EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner p")
+    # EMPTY_BASKET_MESSAGE = (By.XPATH, "//p[contains(text(), 'Ваша корзина пуста')]")
+
+
 class MainPageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
